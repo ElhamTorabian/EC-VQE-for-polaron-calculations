@@ -342,7 +342,7 @@ def EC_result(Ch,type,N_site,n_p,E,t,w,g):
 
     return (min(np.real(eigenvalues)))
 
-print("The EC result is:  ", EC_result(2,"overlap",100,2,0,1,0.1,1))
+print("The EC result is:  ", EC_result(2,"overlap",100,38,0,1,0.1,1))
 
 # %%
 
